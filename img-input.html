@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel="stylesheet" href="img-input.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="img-input">
+   <div class="img-input-wrapper">
+      <!--add .img-none class to img element if the image is not available -->
+      <img class="img-preview" data-placeholder="placeholder.jpg" src="image.jpg"/>
+
+      <label class="img-input-action img-input-action-change">
+            <i class="bi bi-pencil fs-4"></i>
+      </label>
+
+      <label class="img-input-action img-input-action-cancel">
+            <i class="bi bi-arrow-counterclockwise fs-4"></i>
+      </label>
+
+      <label class="img-input-action img-input-action-remove">
+            <i class="bi bi-trash fs-4"></i>
+      </label>
+
+      <input type="file" class="img-input-file" accept="image/*"/>
+
+      <input type="hidden" class="img-input-remove" value="false" />
+
+   </div>
+</div>
+<script src="img-input.js"></script>
+</body>
+</html>
