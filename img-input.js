@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		removeButton.style.display = "none";            
 	 }
 
+	 imgPreview.addEventListener('load', function(){
+	 	imgPreview.style.opacity = 1;
+	 })
+
 	 changeButton.addEventListener("click", function(event){
 		imgInputFile.click();
 	 });
