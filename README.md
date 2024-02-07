@@ -3,5 +3,5 @@
 Functions:
 - Select a photo
 - Undo the selection
-- Remove the photo
+- Delete the photo
 - Undo the deletion
